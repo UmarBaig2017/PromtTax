@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-
+import {Link} from "react-router-dom"
 export default class Header extends Component {
     render() {
         return (
@@ -52,7 +52,7 @@ export default class Header extends Component {
           </form>
             <div class="collapse navbar-collapse" id="ftco-nav">
               <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active"><a href="index.html" class="nav-link pl-0">Home</a></li>
+                  <li class="nav-item active"><Link class="nav-link" to="/">Home</Link></li>
                   <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                   <li class="nav-item"><a href="project.html" class="nav-link">Projects</a></li>
                   <li class="nav-item"><a href="services.html" class="nav-link">Services</a></li>

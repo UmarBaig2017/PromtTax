@@ -16,6 +16,7 @@ import image from "./images/image_1.jpg"
 import imagetwo from "./images/image_2.jpg"
 import imagethree from "./images/image_3.jpg"
 import Client from "./Clietnt"
+import Link from "react-router-dom"
 export default class Homie extends Component {
     render() {
         return (
